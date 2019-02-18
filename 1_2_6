@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a=1;
+    int b=2;
+    int c=3;
+
+
+    printf("Liczba1: %d\n", a);
+    printf("Liczba2: %d\n", b);
+    printf("Liczba3: %d\n", c);
+    return 0;
+}
