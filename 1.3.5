@@ -1,0 +1,40 @@
+#include <stdlib.h>
+#include <math.h>
+#include <stdio.h>
+int main()
+{
+    float a,b,c,h,p;
+    char x;
+
+    float pole=0;
+    printf("jak chcesz policzyc pole:\n1.wysokosc i bok\n2. 3boki\n");
+    scanf("%c",&x);
+    while(x!='1' && x!='2')
+    {
+        printf("podaj jeszcze raz 1 lub 0\n");
+         scanf("%f",&x);
+    }
+    if(x=='1')
+    {
+        printf("podaj bok:");
+        scanf("%f", &a);
+        printf("Podaj wysokosc:");
+        scanf("%f", &h);
+        pole=(a*h)/2;
+        printf("Pole wynosi: %f",pole);
+        return 0;
+    }
+    else if(x=='2')
+    {
+        printf("Podaj bok a:");
+        scanf("%f", &a);
+        printf("Podaj bok b:");
+        scanf("%f", &b);
+        printf("Podaj bok c:");
+        scanf("%f", &c);
+        p=(a+b+c)/2;
+        pole=sqrt(p*(p-a)*(p-b)*(p-c));
+        printf("Pole wynosi: %f", pole);
+        return 0;
+    }
+}
