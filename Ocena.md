@@ -14,3 +14,5 @@ Uwagi:
 * 1.2.8 - brak wczytania liczby z wejścia
 
 ### cw2
+
+* nb - brak oceniania
