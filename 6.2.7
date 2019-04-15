@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int **fun(unsigned int);
+
+int main()
+{
+    printf("%p",fun(3));
+
+    getchar();
+    return 0;
+}
+
+int **fun(unsigned int n)
+{
+    int **tab=malloc(n*sizeof(int*));
+
+    for(int i=0;i<n;i++)
+    {
+        tab[i]=malloc(i*sizeof(int));
+    }
+
+    return tab;
+}
