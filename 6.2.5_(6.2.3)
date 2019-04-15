@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void fun(int,int,int,int***);
+
+int main()
+{
+    int tab[3][3][3];
+    fun(3,3,3,tab);
+
+    getchar();
+    return 0;
+}
+void fun(int n,int m,int x,int ***tab)
+{
+   free(tab);
+}
