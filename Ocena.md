@@ -1,3 +1,5 @@
+@ Do wyjaśnienia
+
 | cw 1 | cw 2| cw 3| cw 4|
 |---|---|---|---|
 | 0 pkt | 0 pkt | 0 pkt | 0 pkt |
