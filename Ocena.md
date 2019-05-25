@@ -1,4 +1,4 @@
-@ Daję czas do końca maja na ew. nadrobienie zadań lub napisanie pierwszego kolokwium. Po zrobieniu zadań proszę o zrobienie issue lub maila i sprawdzę je ponownie i wstawię punkty.
+@ **Daję czas do końca maja na ew. nadrobienie zadań lub napisanie pierwszego kolokwium.** Po zrobieniu zadań proszę o zrobienie issue lub maila i sprawdzę je ponownie i wstawię punkty.
 
 | cw 1 | cw 2| cw 3| cw 4| cw5 | wej 6 | cw 6 | kolo 1 | cw 8 | cw9 | cw10| cw 11| cw 12|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
