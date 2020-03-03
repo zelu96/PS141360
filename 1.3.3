@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int liczba1,liczba2,liczba3;
+    printf("Podaj liczbe 1: ");
+    scanf("%i", &liczba1);
+    printf("Podaj liczbe 2: ");
+    scanf("%i", &liczba2);
+    printf("Podaj liczbe 3: ");
+    scanf("%i", &liczba3);
+    
+    if(liczba1!=liczba2 && liczba1!=liczba3 && liczba2!=liczba3)
+    {
+        if(liczba1>liczba2 && liczba1>liczba3)
+        {
+            printf("%i",liczba1);
+        }
+        else if(liczba2>liczba1 && liczba2>liczba3)
+        {
+            printf("%i",liczba2);
+        }
+        else if(liczba3>liczba1 && liczba3>liczba2)
+        {
+            printf("%i",liczba3);
+        }
+    }
+
+
+
+    return 0;
+}
