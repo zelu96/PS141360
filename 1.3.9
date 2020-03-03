@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float a,b,liczba;
+    printf("Witaj w kalkulatorze wybierz liczbe odpowiednia do rownania:\n Dodawanie wybierz 1\n Odejmowanie wybierz 2\n Mnozenie wybierz 3\nDzielenie wybierz 4 \n");
+    printf("podaj a: ");
+    scanf("%f",&a);
+    printf("podaj b: ");
+    scanf("%f",&b);
+    printf("A teraz wybierz dzialanie: ");
+    scanf("%f",&liczba);
+    if(liczba == 1)
+    {
+        printf("Dodawanie: %f",a+b);
+    }
+    else if(liczba == 2)
+    {
+        printf("Odejmowanie: %f",a-b);
+    }
+    else if(liczba == 3)
+    {
+        printf("Mnozenie: %f",a*b);
+    }
+    else if(liczba == 4)
+    {
+        printf("Dzielenie: %f",a/b);
+    }
+
+    return 0;
+
+}
