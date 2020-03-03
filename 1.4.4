@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n;
+    printf("Podaj n: ");
+    scanf("%d",&n);
+    int wynik=1;
+    for(int i=1;i<=n;i++)
+    {
+        wynik*=i;
+    }
+    printf("%d",wynik);
+    return 0;
+
+}
