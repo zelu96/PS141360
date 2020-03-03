@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float a,b,c;
+    printf("podaj wspolczynniki ukladu kwadratowego: ax^2+bx+c \n");
+    printf("podaj a: ");
+    scanf("%f",&a);
+    printf("podaj b: ");
+    scanf("%f",&b);
+    printf("podaj c: ");
+    scanf("%f",&c);
+    float delta = b*b - 4*a*c;
+
+    if(a!=0)
+    {
+        if(delta < 0)
+        {
+            printf("Rownanie nie ma rozwiazan");
+        }
+        else if(delta == 0)
+        {
+            printf("Rownanie ma jeden pierwiastek rowny x=%f",-b/a*a);
+        }
+        else if(delta > 0)
+        {
+            printf("Rowanie ma dwa pierwiastki rowne: x1=%f, x2=%f",(-b+sqrt(delta))/(2*a),(-b-sqrt(delta))/(2*a));
+        }
+    }
+    else
+    {
+        if(b!=0)
+        {
+            printf("Jedno rozwiazanie: %f",-c/b);
+        }
+        else
+        {
+            if(c!=0)
+            {
+                printf("Brak rozw");
+            }
+            else
+            {
+                printf("Nieskonczenie wiele rozwiazan");
+            }
+        }
+    }
+
+
+    return 0;
+
+}
