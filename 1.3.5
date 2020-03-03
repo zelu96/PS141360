@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a,h;
+    printf("podaj podstawe trojkata: ");
+    scanf("%f",&a);
+    printf("podaj wysokosc trojkata: ");
+    scanf("%f",&h);
+    
+    if(a>0 && h>0)
+    {
+        double wzor = (a*h)/2;
+        printf("%f",wzor);
+    }
+
+    return 0;
+}
