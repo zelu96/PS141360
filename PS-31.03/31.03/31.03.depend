@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585670186 source:c:\users\zelu\desktop\ps-31.03\31.03\main.c
+	<stdio.h>
+	<stdlib.h>
+
