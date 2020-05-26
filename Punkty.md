@@ -1,4 +1,4 @@
-Stan na dzień: 12.05.2020 10:49
+Stan na dzień: 26.05.2020 11:18
 
 | Lista 1 | Lista 2 | Lista 3 | Lista 4 | Lista 5 |
 |---|---|---|---|---|
@@ -6,4 +6,10 @@ Stan na dzień: 12.05.2020 10:49
 
 | Lista 6 | Lista 7 | koło 1| Lista 8/9 | Lista 10 |
 |---|---|---|---|---|
-| brak | brak | inny termin | brak | brak |
+| brak | brak | 37 pkt | brak | brak |
+
+|Lista 11|Liast 12|
+|---|---|
+| brak | brak |
+
+suma:43 pkt
